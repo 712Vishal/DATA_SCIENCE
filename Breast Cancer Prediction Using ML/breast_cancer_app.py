@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.svm import SVC
+
 from sklearn.preprocessing import StandardScaler
 
 # --- Configuration ---
@@ -145,3 +146,4 @@ if st.button('Run Prediction', type="primary"):
 # --- Footer ---
 st.markdown("---")
 st.caption("Model trained using Support Vector Classifier (SVC). For research and educational purposes only. Always consult a medical professional.")
+
