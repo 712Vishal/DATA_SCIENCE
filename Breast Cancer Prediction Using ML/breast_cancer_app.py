@@ -17,7 +17,7 @@ FEATURE_NAMES = [
     'Bland Chromatin', 'Normal Nucleoli', 'Mitoses'
 ]
 
-DATA_FILE = 'Y:/Data science/Breast Cancer Prediction Using ML/breast_cancer.csv'
+DATA_FILE = './breast_cancer.csv'
 
 
 @st.cache_resource
